@@ -1,32 +1,35 @@
-*{
+html, body{
+    height:100%;
+    margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 body{
-    background-image: url(../../assets/images/dark-grey-terrazzo.png);
+    background-image: url(../../assets/images/cheap_diagonal_fabric.png);
 }
 h1{
-    font-size: 14pt;
+    font-size: 15pt;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: #A5C9B9;
-    color: #304138;
+    background-color: #25577D;
+    color: #76CBCC;
     width: 150px;
     text-align: center;
-    border: 1.5px solid;
+    border: 1px solid;
     padding: 30px;
     position: absolute;
-    left: 10px;
+    left: 80px;
 
 }
 h2{
     margin-left: 10px;
-    color: #304138;
+    color: #25577D;
 }
 p{
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 30px;
 }
 a{
-    color: #A5C9B9;
+    color: #008FFC;
     text-decoration: none;
 }
 .container{
@@ -34,16 +37,16 @@ a{
     text-align: justify;
     border:1.5px solid;
     position: relative;
-    top: 150px;
+    top: 125px;
     margin: auto;
-    color: #5C7D6C;
-    background-color: #CFFCE7;
+    color: #39657D;
+    background-color: #76CBCC;
 
 }
 .menu{
     position: absolute;
     top:50px;
-    right: 0px;
+    right: 40px;
 }
 .cont2, .cont3{
     display: block; 
@@ -53,12 +56,56 @@ a{
     margin: auto;
     text-align: justify;
     border: 1.5px solid;
-    color: #5C7D6C;
-    background-color: #CFFCE7;
+    color: #39657D;
+    background-color: #76CBCC;
 }
 .me{
     float: left;
     width: 135px;
     height: 190px;
     margin: 5px 10px 5px 10px;
+}
+.content{
+    min-height: 100%;
+
+/* equal to footer height while accounting for potential margin bottom of last element */
+    margin-bottom: -20px;
+}
+.footer{
+    font-size: 10pt;
+    text-align: center;
+    width:100%;
+    padding: 0px;
+    border-top: 2px solid;
+    position:fixed;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right:0;
+    color: #76CBCC;
+    background-color: #25577D;
+}
+.footer, .push {
+    height: 20px;
+}
+#submit {
+    background-color: #25577D;
+    border: 1px solid;
+    color: #76CBCC;
+    padding: 4px;
+    display: inline block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.name, .comment {
+    display: inline block;
+    margin: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.comment [type=text] {
+    display: block;
+    width: 100%;
+    padding: 50px 40px;
+    box-sizing: border-box;
 }
