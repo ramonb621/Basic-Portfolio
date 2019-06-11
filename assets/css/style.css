@@ -5,6 +5,7 @@ html, body{
 }
 body{
     background-image: url(../../assets/images/cheap_diagonal_fabric.png);
+    flex-grow: 1;
 }
 h1{
     font-size: 15pt;
@@ -86,16 +87,22 @@ a{
     color: #76CBCC;
     background-color: #25577D;
 }
-.footer, .push {
-    height: 20px;
+.push {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    flex-shrink: 0;
 }
 #submit {
     background-color: #25577D;
     border: 1px solid;
     color: #76CBCC;
-    padding: 4px;
+    padding: 8px;
     display: inline-block;
     margin-left: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 .name, .comment {
