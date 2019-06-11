@@ -94,12 +94,12 @@ a{
     border: 1px solid;
     color: #76CBCC;
     padding: 4px;
-    display: inline block;
+    display: inline-block;
     margin-left: 10px;
     cursor: pointer;
 }
 .name, .comment {
-    display: inline block;
+    display: inline-block;
     margin: 10px;
     border-radius: 5px;
     box-sizing: border-box;
