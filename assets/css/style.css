@@ -41,6 +41,7 @@ a{
     margin: auto;
     color: #39657D;
     background-color: #76CBCC;
+    clear: left;
 
 }
 .menu{
@@ -105,7 +106,7 @@ a{
 }
 .comment [type=text] {
     display: block;
-    width: 100%;
+    width: 940px;
     padding: 50px 40px;
     box-sizing: border-box;
 }
