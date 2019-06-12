@@ -3,6 +3,8 @@ html, body{
     margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+head{
+}
 body{
     background-image: url(../../assets/images/cheap_diagonal_fabric.png);
     flex-grow: 1;
@@ -18,7 +20,6 @@ h1{
     padding: 30px;
     position: absolute;
     left: 80px;
-
 }
 h2{
     margin-left: 10px;
@@ -106,14 +107,14 @@ a{
     cursor: pointer;
 }
 .name, .comment {
-    display: inline-block;
     margin: 10px;
     border-radius: 5px;
     box-sizing: border-box;
 }
 .comment [type=text] {
     display: block;
-    width: 940px;
-    padding: 50px 40px;
+    width: 650px;
+    padding: auto;
     box-sizing: border-box;
+    overflow: visible;
 }
