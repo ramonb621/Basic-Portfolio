@@ -1,7 +1,7 @@
 html, body{
     height:100%;
     margin: 0;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 }
 head{
 }
@@ -20,6 +20,7 @@ h1{
     padding: 30px;
     position: fixed;
     left: 80px;
+    z-index: 3;
 }
 h2{
     margin-left: 10px;
@@ -31,7 +32,7 @@ p{
     line-height: 30px;
 }
 a{
-    color: #008FFC;
+    color: #76CBCC;
     text-decoration: none;
 }
 .container{
@@ -45,13 +46,20 @@ a{
     color: #39657D;
     background-color: #76CBCC;
     clear: left;
-
+    z-index: 2;
 }
 .menu{
     position: fixed;
-    top:50px;
-    right: 40px;
-
+    top:20px;
+    right: 0;
+    z-index: 1;
+    padding-top:15px;
+    padding-left: 100%;
+    padding-right: 100px;
+    padding-bottom: 15px;
+    background-color: #39657D;
+    border-style: solid;
+    border-color:#76CBCC;
 }
 .cont2, .cont3{
     display: block; 
@@ -65,6 +73,44 @@ a{
     border: 1.5px solid;
     color: #39657D;
     background-color: #76CBCC;
+    z-index: 2;
+}
+.cont3{
+    height: 700px;
+}
+#project1, #project2, #project3, #project4{
+    width: 200px;
+    background-color: #25577D;
+    color: #008FFC;
+    text-align: center;
+}
+#project1{
+    padding: 10px;
+    display: block;
+    position: absolute;
+    top:125px;
+    right: 600px;
+}
+#project2{
+    padding: 10px;
+    display: block;
+    position: absolute;
+    top:125px;
+    left: 600px;
+}
+#project3{
+    padding: 10px;
+    display: block;
+    position: absolute;
+    right: 600px;
+    bottom:200px;
+}
+#project4{
+    padding: 10px;
+    display: block;
+    position: absolute;
+    left: 600px;   
+    bottom: 200px;
 }
 .me{
     float: left;
