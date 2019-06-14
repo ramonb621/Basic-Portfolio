@@ -18,7 +18,7 @@ h1{
     text-align: center;
     border: 1px solid;
     padding: 30px;
-    position: absolute;
+    position: fixed;
     left: 80px;
 }
 h2{
@@ -38,8 +38,9 @@ a{
     width:960px;
     text-align: justify;
     border:1.5px solid;
-    position: relative;
+    position: absolute;
     top: 125px;
+    left: 185px;
     margin: auto;
     color: #39657D;
     background-color: #76CBCC;
@@ -47,15 +48,18 @@ a{
 
 }
 .menu{
-    position: absolute;
+    position: fixed;
     top:50px;
     right: 40px;
+
 }
 .cont2, .cont3{
     display: block; 
     width:960px;
-    position: relative;
-    top: 150px;
+    position: absolute;
+    position: absolute;
+    top: 125px;
+    left: 185px;
     margin: auto;
     text-align: justify;
     border: 1.5px solid;
