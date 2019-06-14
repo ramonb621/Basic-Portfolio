@@ -49,9 +49,10 @@ a{
     z-index: 2;
 }
 .menu{
-    position: fixed;
+    float: right;
+    display: block;
     top:20px;
-    right: 0;
+    right: -10px;
     z-index: 1;
     padding-top:15px;
     padding-left: 100%;
