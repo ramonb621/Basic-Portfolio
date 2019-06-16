@@ -19,12 +19,18 @@ h1{
     border: 1px solid;
     padding: 30px;
     position: fixed;
-    left: 80px;
+    top: 5px;
+    left: 100px;
     z-index: 3;
 }
 h2{
     margin-left: 10px;
     color: #25577D;
+}
+hr{
+    border-top: 1px solid;
+    border-color: #25577D;
+    width: 95%;
 }
 p{
     margin-right: 15px;
@@ -50,16 +56,13 @@ a{
 }
 .menu{
     float: right;
+    text-align: right;
     display: block;
-    top:20px;
-    right: -10px;
     z-index: 1;
-    padding-top:15px;
-    padding-left: 100%;
-    padding-right: 100px;
-    padding-bottom: 15px;
+    width: 100%;
+    padding: 30px 20px;
     background-color: #39657D;
-    border-style: solid;
+    border-bottom: solid;
     border-color:#76CBCC;
 }
 .cont2, .cont3{
