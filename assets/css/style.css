@@ -83,23 +83,23 @@ a{
     height: 700px;
 }
 #project1, #project2, #project3, #project4{
-    width: 200px;
+    width: 175px;
     background-color: #25577D;
-    color: #008FFC;
+    color: #76CBCC;
     text-align: center;
 }
 #project1{
     padding: 10px;
     display: block;
     position: absolute;
-    top:125px;
+    top:145px;
     right: 600px;
 }
 #project2{
     padding: 10px;
     display: block;
     position: absolute;
-    top:125px;
+    top:145px;
     left: 600px;
 }
 #project3{
@@ -107,14 +107,14 @@ a{
     display: block;
     position: absolute;
     right: 600px;
-    bottom:200px;
+    bottom:80px;
 }
 #project4{
     padding: 10px;
     display: block;
     position: absolute;
     left: 600px;   
-    bottom: 200px;
+    bottom: 80px;
 }
 .me{
     float: left;
