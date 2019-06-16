@@ -6,6 +6,7 @@ html, body{
 head{
 }
 body{
+    margin:auto;
     background-image: url(../../assets/images/cheap_diagonal_fabric.png);
     flex-grow: 1;
 }
